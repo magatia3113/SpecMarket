@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이미지 링크</title>
+</head>
+<body>
+  <div id="image-container"></div>
+
+  <script>
+    // 이미지 URL 생성
+    const imageUrl = "https://karrotmarket-com-sanity-cdn.krrt.io/production/7f723e50597579f43439a018b1f2c7002e44a1b6-2976x1200.png";
+    
+    // 링크 URL 생성
+    const pageUrl = "https://example.com/yourpage1";
+
+    // 이미지 요소 생성
+    const imgElement = document.createElement("img");
+    imgElement.src = imageUrl;
+    imgElement.alt = "이미지 설명";
+
+    // 링크 요소 생성
+    const linkElement = document.createElement("a");
+    linkElement.href = pageUrl;
+    linkElement.target = "_blank";  // 새로운 탭에서 열기
+
+    // 링크에 이미지 추가
+    linkElement.appendChild(imgElement);
+
+    // 생성된 링크를 페이지에 추가
+    document.getElementById("image-container").appendChild(linkElement);
+  </script>
+</body>
+</html>
