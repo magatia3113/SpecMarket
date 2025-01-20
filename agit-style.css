@@ -1069,7 +1069,17 @@ input[type=checkbox] {
   padding: 174px 0 0;
 }
 
+#main_wrap2 {
+  min-width: 1220px;
+  padding: 174px 0 0;
+}
+
 #main_wrap .main_area {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#main_wrap2 .main_area {
   margin: 0 auto;
   width: 1200px;
 }
