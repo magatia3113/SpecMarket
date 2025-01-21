@@ -1,2 +1,2 @@
-# SpecMarket
-스펙마켓
+# SpecTree
+스펙트리
