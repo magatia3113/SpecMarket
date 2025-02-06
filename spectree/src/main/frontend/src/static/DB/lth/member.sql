@@ -1,0 +1,8 @@
+CREATE DATABASE member;
+
+CREATE TABLE member (
+    idx INT AUTO_INCREMENT NOT NULL,
+    user_Id VARCHAR(10) NOT NULL,
+    user_Passwd VARCHAR(10) NOT NULL,
+    PRIMARY KEY(idx)
+);
