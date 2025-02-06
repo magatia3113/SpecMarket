@@ -1,6 +1,7 @@
 SpecTree
 스펙트리
 
+.
 디렉토리 구조
 ├── README.md
 ├── spectree
